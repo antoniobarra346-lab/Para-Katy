@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Ti 💖</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f1048a, #720b57);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: white;
+            max-width: 650px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            color: #333;
+        }
+
+        h1 {
+            color: #ff004c;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .heart {
+            font-size: 3em;
+            animation: latido 1.2s infinite;
+        }
+
+        @keyframes latido {
+            0% { transform: scale(1); }
+            30% { transform: scale(1.2); }
+            60% { transform: scale(1); }
+        }
+
+        /* GALERÍA */
+        .galeria {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .imagen-circular {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff4d88;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="heart">❤️</div>
+
+        <h1>Para mi amorcito KATY :3</h1>
+        <h2>Una persona muy especial</h2>
+
+        <p>
+            Mi amor, hice esto con ayuda del chat gpt porque lo poco que sabía lo olvidé,
+            pero mi intención es hacer algo bonito y con el tiempo llenarlo de nuestras
+            fotitos y recuerdos, como si fuera un blog o un álbum de momentos bonitos.
+        </p>
+
+        <p>
+            Por el momento queda en blanco, pero con el tiempo se llenará de muchísimos recuerdos.
+        </p>
+
+        <p>
+            Gracias por tu sonrisa, por tu tiempo, por ser tú.
+            Haces mis días más bonitos de lo que imaginas.
+        </p>
+
+        <div class="galeria">
+            <img src="katy 1.jpeg" class="imagen-circular" alt="Katy 1">
+            <img src="katy 2.jpeg" class="imagen-circular" alt="Katy 2">
+            <img src="katy 3.jpeg" class="imagen-circular" alt="Katy 3">
+        </div>
+
+        <footer>
+            Con cariño ❤️<br>
+            TU NOVIECITO LUIS :3
+        </footer>
+    </div>
+
+</body>
+</html>
